@@ -1,4 +1,4 @@
-CREATE TABLE dog (  -- Cciando a tabela dog
+CREATE TABLE dog (  -- Criando a tabela dog
    id_dog        NUMBER(5)   NOT NULL,   -- número de id de cada registro que for inserido na tabela
    name_dog      VARCHAR(20) NOT NULL,   -- nome
    breed_dog     VARCHAR(20) NOT NULL,   -- raça
