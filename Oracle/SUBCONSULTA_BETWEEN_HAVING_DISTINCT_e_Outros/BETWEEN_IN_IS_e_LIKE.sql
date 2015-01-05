@@ -13,7 +13,7 @@ WHERE sal BETWEEN '1000,00' AND '4000,00';
 -- Listando os dados dos funcionários que não ganham entre 5000,00 e 10000,00 de salário
 SELECT * 
 FROM funcionario
-WHERE sal BETWEEN 5000 AND 10000;
+WHERE sal NOT BETWEEN 5000 AND 10000;
 
 -- Listando os nomes e comissões dos funcionários que ganham comissão de 440,00 e 640,00
 SELECT
